@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 5px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 10px;
+    background-color: #c0afaf;
+    border-radius: 10px;
+}
+
+nav ul li a:hover {
+    opacity: 80%;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 900px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+.store_location img{
+    width: 670px;
+    height: 450px;
+    border-radius: 0px;
+    gap: 20px;
+
+}
+
+@media (max-width: 600px){
+    .store_location img, iframe {
+        width: 100%;
+        height: auto;
+        border-top: 10px;
+    }
+}
+
+.section_style {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+table{
+    width: 100%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    width: 30%;
+}
+
+.footer-section h2 {
+    margin-top: 0;
+    color: white;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+    .footer-section{
+        display: none;
+    }
+}
+
+
+  

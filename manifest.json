@@ -1,0 +1,22 @@
+{
+    "name": "Grocies Supermarket",
+    "short_name": "Grocies",
+    "description": "Grocies Supermarket is your one-stop shop for all your daily needs. We provide a wide range of high-quality products at competitive prices, with a focus on customer satisfaction.",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#333333",
+    "icons": [
+      {
+        "src": "IMAGES/shopping-bag.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "IMAGES/shopping-bag.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+}
+  

@@ -1,0 +1,296 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 5px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 10px;
+    background-color: #c0afaf;
+    border-radius: 10px;
+}
+
+nav ul li a:hover {
+    opacity: 80%;
+}
+
+main{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+section{
+    background-color: #f8f8f8;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.product img{
+    height: 280px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.product-style {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 20px;
+    gap: 20px;
+}
+.product {
+    width: 390px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+}
+.product:hover {
+    background-color: #f2f2f2;
+}
+.cart-button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.cart-button:hover{
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    width: 30%;
+}
+
+.footer-section h2 {
+    margin-top: 0;
+    color: white;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+    .footer-section{
+        display: none;
+    }
+}
+
+#cartTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+#cartTable thead {
+    background-color: #f4f4f4;
+}
+
+#cartTable th, #cartTable td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+#cartTable th {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#cartTable tbody tr:nth-of-type(even) {
+    background-color: #f9f9f9;
+}
+
+#cartTable tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+#cartTable tfoot tr td {
+    font-weight: bold;
+}
+
+#grand-total {
+    font-size: 20px;
+    color: #333;
+}
+
+#cartTable {
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.buy-now {
+    background-color: #ff6347; /* Tomato */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.buy-now:hover {
+    background-color: #ff4500; /* OrangeRed */
+    transform: scale(1.05);
+}
+
+.center {
+    text-align: center;
+}
+/* Add your styles for the checkout page here */
+#order-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+#order-table th, #order-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#order-table th {
+    background-color: #f4f4f4;
+    text-align: left;
+}
+
+#order-table tfoot td {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#customer-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#customer-form label {
+    margin-top: 10px;
+}
+
+#customer-form input {
+    padding: 8px;
+    margin-top: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#customer-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#customer-form button:hover {
+    background-color: #555;
+}
+
+.clear-cart{
+    background-color: #ff6347; /* Tomato */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.clear-cart {
+    background-color: #ff4500; /* OrangeRed */
+    transform: scale(1.05);
+}
+
+.addtof {
+    background-color: #ff6347; /* Tomato */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.addtof:hover {
+    background-color: #ff4500; /* OrangeRed */
+    transform: scale(1.05);
+}

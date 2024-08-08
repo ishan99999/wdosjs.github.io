@@ -1,0 +1,216 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 5px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 10px;
+    background-color: #c0afaf;
+    border-radius: 10px;
+}
+
+nav ul li a:hover {
+    opacity: 80%;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.loyalty-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.loyalty-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.loyalty-form input,
+.loyalty-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.loyalty-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.loyalty-form button:hover {
+    background-color: #555;
+}
+
+.loyalty-benefits {
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefit {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.benefit h3 {
+    margin-top: 0;
+}
+
+.benefit ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.benefit ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    width: 30%;
+}
+
+.footer-section h2 {
+    margin-top: 0;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+
+.order-form {
+    margin: auto;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 80px;
+    width: 50%;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type=text],
+input[type=email],
+input[type=number],
+select{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.order-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+.order-button:hover {
+    background-color: #555;
+}
+
+.form_style{
+    display: flex;
+    align-items: center;
+}
+
+.form_style img{
+    width: 480px;
+    border-radius: 10px;
+    height: 100%;
+}
+
+@media (max-width: 600px) {
+    .footer-section{
+        display: none;
+    }
+    .form_style img{
+        display: none;
+    }
+    .order-form {
+        margin: auto;
+        background-color: #fff;
+        padding: 50px;
+        border-radius: 0px;
+        width: 100%;
+    }
+}
